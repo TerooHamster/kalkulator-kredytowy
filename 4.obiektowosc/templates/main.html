@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{$page_description|default:'Opis domyślny ...'}">
+    <title>{$page_title|default:"Kalkulator kredytowy w PHP"}</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{$conf->app_url}/css/style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <h1>{$page_title|default:"Kalkulator kredytowy w PHP"}</h1>
+    <h2>{$page_header|default:''}</h2>
+    <p>
+        {$page_description|default:"Aplikacja kalkulatora kredytowego napisana w php do obliczania kredyt, wystarczy wpisać kwote oraz wybrać jeden z dostępnych terminów spłaty a kalkulator sam nam policzy odsetki, oprocentowanie, miesięczną ratę oraz całkowity koszt pożyczki na podstawie określonych danych"}
+    </p>
+</div>
+
+<div class="content">
+    {block name=content} Domyślna treść zawartości {/block}
+</div>
+
+<div class="footer">
+	<p>
+	{block name=footer} Domyślna treść zawartości {/block}
+	</p>
+    <p>
+        Projekt kalkulatora kredytowego wzorowanego na przykładowym ćwiczeniu, na podstawie szablonów pure-css
+        <br><br>
+        Autor kalkulatora : Krystian Górski
+        <br><br>
+        Grupa : PAW3
+    </p>
+</div>
+
+</body>
+</html>
