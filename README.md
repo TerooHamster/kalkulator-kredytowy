@@ -1,1 +1,1 @@
-# kalkulator-kredytowy
+# kalkulator kredytowy
